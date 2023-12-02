@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Help">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/backHomeBtn7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:clickable="true"
+            android:contentDescription="@string/app_name"
+            app:backgroundTint="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_arrow_back_ios_new_24" />
+
+
+        <TextView
+            android:id="@+id/textView14"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="30dp"
+            android:layout_toEndOf="@+id/backHomeBtn7"
+            android:text="Help"
+            android:textAllCaps="true"
+            android:textColor="@color/themeColor"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <TextView
+            android:id="@+id/aboutTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginTop="20dp"
+            android:padding="15dp"
+            android:text="Welcome to the Help section of LTB Reports. We strive to make your experience as smooth as possible. If you have any questions, concerns, or just need assistance, you're in the right place.
+                          \n\nContact Us:
+                          \nIf you can't find the information you need or if you have a specific inquiry, our support team is ready to assist you.
+                          \n\nFeel free to reach out via:
+                          \n\n📧 Email: support@admin.com
+                          \nDrop us an email, and our support team will get back to you as soon as possible. Please include as much detail as you can to help us assist you more efficiently.
+                          \n\n📞 Phone: 0711237658
+                          \nFor urgent matters or if you prefer direct communication, give us a call during our business hours. We're here to provide the assistance you need.
+                          \n\nFeedback and Suggestions:
+                          \nWe value your feedback! If you have suggestions for improvements or features you'd like to see, let us know. Your input helps us enhance the app for everyone.
+
+\n\nThank you for choosing LTB Reports. We're dedicated to ensuring your experience is positive, and we appreciate your trust in us."
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14"
+            app:layout_constraintVertical_bias="1.0" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

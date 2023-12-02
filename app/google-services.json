@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "479632966698",
+    "project_id": "onlinelabreport-9af26",
+    "storage_bucket": "onlinelabreport-9af26.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:479632966698:android:df029858e9d24eacb7ef53",
+        "android_client_info": {
+          "package_name": "com.onlinelabreport.onlinelabreport"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "479632966698-9g2ron3042r7rhf8lb9lj8pvqsdr1nsg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2DXk5pzx7L8ttVr-7ss8y01p-pGWT33Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "479632966698-9g2ron3042r7rhf8lb9lj8pvqsdr1nsg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

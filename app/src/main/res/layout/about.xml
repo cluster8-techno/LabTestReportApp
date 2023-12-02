@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".About">
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/backHomeBtn6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="24dp"
+            android:clickable="true"
+            android:contentDescription="@string/app_name"
+            app:backgroundTint="@color/white"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/baseline_arrow_back_ios_new_24" />
+
+
+        <TextView
+            android:id="@+id/textView14"
+            android:gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginEnd="30dp"
+            android:layout_toEndOf="@+id/backHomeBtn6"
+            android:text="About us"
+            android:textAllCaps="true"
+            android:textColor="@color/themeColor"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="68dp"
+            android:padding="10dp"
+            android:text="Welcome to LBT Reports"
+            android:textColor="@color/black"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.096"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <TextView
+            android:id="@+id/aboutTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="15dp"
+            android:text="Discover the ultimate convenience in managing your laboratory reports and staying updated on the latest in the world of science. Our app brings together a suite of features designed to streamline your experience.
+                       \n\n\n📁 Lab Reports On-the-Go:
+                       \nEffortlessly download your lab reports as PDFs through secure links. Access your results anytime, anywhere with just a few taps.
+                       \n\n📚 Book Lab Sessions:
+                       \nSchedule your lab sessions with ease using our intuitive booking system. Take control of your time and plan your experiments seamlessly.
+                       \n\n👀 Visualize with Videos:
+                       \nExplore a rich video gallery that enhances your learning experience. From educational content to experimental demonstrations, our video library has it all.
+                       \n\n📰 Stay Informed with News Feed:
+                       \nKeep yourself updated with the latest news and breakthroughs in the scientific community. Our curated news feed ensures you never miss a significant update.
+                       \n\n🔒 Secure and Reliable:
+                       \nRest assured, your data is in safe hands. We prioritize your privacy and employ top-notch security measures to protect your information.
+                       \n\n🌐 Connect with the Community:
+                       \nJoin a thriving community of like-minded individuals. Share insights, ask questions, and engage with fellow enthusiasts in our interactive platform.
+                       \n\nDownload LBT Reports today and experience a new era in lab management and scientific exploration. Embrace efficiency, knowledge, and community – all in one app!"
+            android:textColor="@color/black"
+            android:textSize="17sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
